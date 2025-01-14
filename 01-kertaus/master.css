@@ -17,16 +17,25 @@ body{
     margin-left: 3%;
     margin-right: 3%;
     color: rgb(215, 215, 215);
-    
+ 
+}
+.listelement{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+a{
+    color: rgb(215, 215, 215); 
+    font-size: 150%;
+    text-decoration: none;
 }
 #name{
     background: -webkit-linear-gradient(#00b5d0, #00587a);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.nonselected{
-    color: rgb(215, 215, 215);
-}
+
 #content{
     margin-top: 4%;
     text-align: center;
@@ -83,6 +92,6 @@ body{
     position: absolute;
     margin-left: 70%;
 }
-.searchBarHeading:hover{color: rgb(136, 136, 136);}
+a:hover{color: rgb(136, 136, 136);}
 #selected:hover{color:rgb(2, 120, 171);text-decoration-color:rgb(2, 120, 171);}
    
