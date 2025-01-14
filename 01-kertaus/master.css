@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0.15%;
+}
+.headings{
+    margin-left: 10%;      
+    margin-right: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(32, 37, 42);
+    font-size: 90%;
+}
+.searchBarHeading{
+    display: inline-block;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: rgb(215, 215, 215);
+    
+}
+#name{
+    background: -webkit-linear-gradient(#00b5d0, #00587a);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nonselected{
+    color: rgb(215, 215, 215);
+}
+#content{
+    margin-top: 4%;
+    text-align: center;
+    font-size: 175%;
+}
+#highlight{
+    color: cyan;
+    text-shadow: 1px 1px black;
+}
+#selected{
+    color:  rgb(1, 138, 197);
+    text-decoration: underline;
+    text-decoration-thickness: 10%;
+    text-underline-offset: 25%;
+    text-underline-position: under;
+    text-decoration-color: rgb(1, 138, 197);
+}
+#copyright {
+    background-color: darkred;
+    color: darksalmon;
+    text-align: center;
+    margin-top: 5%;
+    padding: 3%;
+    margin-bottom: 0%;
+}
+.contact{
+    color: black;
+    margin-top: 5%;
+    background-size: cover;
+    margin-left: 10%;      
+    margin-right: 10%;
+    background-color: white;
+}
+.contacthead{
+    color: black;
+}
+
+#dumbell {
+    width: 20%;
+    height: 20%;
+    margin-right: 5%;
+    float: left;
+}
+
+#special{
+    color: #00027a;
+}
+.facts{
+    font-size: 120%;
+}
+#rate{
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    margin-left: 70%;
+}
+.searchBarHeading:hover{color: rgb(136, 136, 136);}
+#selected:hover{color:rgb(2, 120, 171);text-decoration-color:rgb(2, 120, 171);}
+   
