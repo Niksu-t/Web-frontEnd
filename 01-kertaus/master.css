@@ -55,6 +55,7 @@ a{
 }
 #copyright {
     background-color: darkred;
+    clear: right;
     color: darksalmon;
     text-align: center;
     margin-top: 5%;
@@ -62,6 +63,7 @@ a{
     margin-bottom: 0%;
 }
 .contact{
+    float: right;
     color: black;
     margin-top: 5%;
     background-size: cover;
