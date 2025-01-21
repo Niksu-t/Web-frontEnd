@@ -1,0 +1,30 @@
+#BMIlaskuriBox{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.BMIcontent{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+#bmiText{
+    color: gray;
+}
+#bmiHeader{
+    font-weight: 800;
+}
+#inputs{
+    display: flex;
+    flex-direction: column;
+
+}
+label{
+    margin-top: 2%;
+}
+input[type=submit]{
+    margin-top: 2%;
+    color: white;
+    background-color: rgb(78, 78, 78);
+}
