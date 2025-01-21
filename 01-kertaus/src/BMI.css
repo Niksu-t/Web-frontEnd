@@ -2,6 +2,7 @@
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 2%;
+    margin-bottom: 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .BMIcontent{
@@ -23,8 +24,24 @@
 label{
     margin-top: 2%;
 }
-input[type=submit]{
+button{
     margin-top: 2%;
+    width: 25%;
+    padding: 0.5%;
+    border-radius: 20px;
     color: white;
     background-color: rgb(78, 78, 78);
+}
+input[type=number]{
+    width: 15%;
+}
+button:hover{
+    background-color: rgb(56, 56, 56);
+}
+td{
+    border: 1px solid gray;
+    margin: auto;
+}
+.highlighted {
+    background-color: greenyellow;
 }

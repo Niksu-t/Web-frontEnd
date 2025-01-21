@@ -1,14 +1,14 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
-    margin: 0.15%;
+    margin: 0;
 }
 .headings{
     margin-left: 10%;      
     margin-right: 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: rgb(32, 37, 42);
-    font-size: 90%;
+    font-size: 100%;
 }
 .searchBarHeading{
     display: inline-block;
@@ -39,7 +39,7 @@ a{
 #content{
     margin-top: 4%;
     text-align: center;
-    font-size: 175%;
+    font-size: 150%;
 }
 #highlight{
     color: cyan;
@@ -60,7 +60,7 @@ a{
     width: 100%;
     color: darksalmon;
     text-align: center;
-    padding: 2%;
+    padding: 1%;
 }
 .contact{
     float: right;
@@ -70,6 +70,7 @@ a{
     margin-left: 10%;      
     margin-right: 10%;
     background-color: white;
+    padding-bottom: 5%;
 }
 .contacthead{
     color: black;
