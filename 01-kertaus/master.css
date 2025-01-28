@@ -4,8 +4,6 @@ body{
     margin: 0;
 }
 .headings{
-    margin-left: 10%;      
-    margin-right: 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: rgb(32, 37, 42);
     font-size: 100%;
@@ -89,11 +87,33 @@ a{
 .facts{
     font-size: 120%;
 }
-#rate{
-    width: 15%;
+.rate{
+    width: 20%;
     height: 15%;
     position: absolute;
     margin-left: 70%;
+}
+@media screen and (max-width: 768px) {
+   .rate{
+    display: none;
+   }
+   body{
+    font-size: 75%;
+   }
+   .headings{
+    font-size: 70%;
+   }
+  }
+
+.HomePageTop{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(./src/background.png);
+    padding-bottom: 30%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 a:hover{color: rgb(136, 136, 136);}
 #selected:hover{color:rgb(2, 120, 171);text-decoration-color:rgb(2, 120, 171);}
