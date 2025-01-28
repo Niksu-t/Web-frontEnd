@@ -69,6 +69,7 @@ a{
     margin-right: 10%;
     background-color: white;
     padding-bottom: 5%;
+    
 }
 .contacthead{
     color: black;
@@ -93,18 +94,6 @@ a{
     position: absolute;
     margin-left: 70%;
 }
-@media screen and (max-width: 768px) {
-   .rate{
-    display: none;
-   }
-   body{
-    font-size: 75%;
-   }
-   .headings{
-    font-size: 70%;
-   }
-  }
-
 .HomePageTop{
     margin-left: 10%;
     margin-right: 10%;
@@ -115,6 +104,37 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media screen and (max-width: 768px) {
+   .rate{
+    display: none;
+   }
+   body{
+    font-size: 75%;
+   }
+   .headings{
+    font-size: 70%;
+   }
+   .HomePageTop{
+    border-radius: 0;
+    padding-bottom: 20%;
+    background-size: cover;
+   }
+   .contact{
+    margin-top: 5%;
+   }
+   #content {
+    display: none;
+   }
+  }
+@media screen and (max-width: 375px) {
+    .headings{
+        font-size: 60%;
+    }
+    body{
+        font-size: 60%;
+    }
+}
+
 a:hover{color: rgb(136, 136, 136);}
 #selected:hover{color:rgb(2, 120, 171);text-decoration-color:rgb(2, 120, 171);}
    
