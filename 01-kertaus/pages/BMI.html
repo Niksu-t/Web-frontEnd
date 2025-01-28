@@ -1,63 +1,64 @@
 <!DOCTYPE html>
 <html lang="fi">
-<head>
-  <meta charset="utf-8" />
-  <title>BMI laskuri</title>
-  
-  <link rel="stylesheet" href="../master.css" />
-  <link rel="stylesheet" href="../src/BMI.css" />
-</head>
-<body>
-  <section class="BmiTop">
-    <div class="headings">
-      <ul>
-        <li id="name" class="searchBarHeading"><h1>HyteGym</h1></li>
-        <li class="searchBarHeading">
-          <a href="../index.html">Koti</a>
-        </li>
-        <li class="searchBarHeading">
-          <a id="selected" href="BMI.html">BMI laskuri</a>
-        </li>
-        <li class="searchBarHeading">
-          <a href="none.html">Yhteystiedot</a>
-        </li>
-      </ul>
-    </div>
-  </section>
-  <section id="BMIlaskuriBox">
-    <div class="BMIcontent">
-        <img src="../src/BMI.png" alt="none" width="50%" height="50%">
-      <h1 id="bmiHeader">Painoindeksilaskuri / BMI-laskuri</h1>
-      <p id="bmiText">
-        Painoindeksilaskurilla voit laskea piituuden ja painon perusteella
-        painoindeksin (BMI, Body Mass Index).
-      </p>
-      <div id="inputs">
-        <label for="weight">Anna Painosi:</label>
-        <input type="number" id="weight" name="weight" placeholder="Kg" />
-        <label for="height">Anna Pituutesi:</label>
-        <input type="number" id="height" name="height" placeholder="Cm" />
-        <button id="bmiButton">Laske Indeksi</button>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI laskuri</title>
+
+    <link rel="stylesheet" href="../master.css" />
+    <link rel="stylesheet" href="../src/BMI.css" />
+  </head>
+  <body>
+    <section class="BmiTop">
+      <div class="headings">
+        <ul>
+          <li id="name" class="searchBarHeading"><h1>HyteGym</h1></li>
+          <li class="searchBarHeading">
+            <a href="../index.html">Koti</a>
+          </li>
+          <li class="searchBarHeading">
+            <a id="selected" href="BMI.html">BMI laskuri</a>
+          </li>
+          <li class="searchBarHeading">
+            <a href="none.html">Yhteystiedot</a>
+          </li>
+        </ul>
       </div>
-      <p id="resultNum">Mittaustuloksesi:</p>
-      <table>
-        <tr id = "underWeight">
-          <td>Alipainoinen</td>
-          <td>0-18.9</td>
-        </tr>
-        <tr id = "normalWeight">
-          <td>Normaalipainoinen</td>
-          <td>19-24.9</td>
-        </tr>
-        <tr id = "overWeight">
-          <td>Ylipainoinen</td>
-          <td>25-40.0 tai enemmän</td>
-        </tr>
-      </table>
-      <p id = "results">Analyysi: </p>
-    </div>
-  </section>
-  <script src="../src/BMI.js"></script>
-  <footer id="copyright">Copyright, Niko Tiesmäki</footer>
-</body>
+    </section>
+    <section id="BMIlaskuriBox">
+      <div class="BMIcontent">
+        <img src="../src/BMI.png" alt="none" width="50%" height="50%" />
+        <h1 id="bmiHeader">Painoindeksilaskuri / BMI-laskuri</h1>
+        <p id="bmiText">
+          Painoindeksilaskurilla voit laskea piituuden ja painon perusteella
+          painoindeksin (BMI, Body Mass Index).
+        </p>
+        <div id="inputs">
+          <label for="weight">Anna Painosi:</label>
+          <input type="number" id="weight" name="weight" placeholder="Kg" />
+          <label for="height">Anna Pituutesi:</label>
+          <input type="number" id="height" name="height" placeholder="Cm" />
+          <button id="bmiButton">Laske Indeksi</button>
+        </div>
+        <p id="resultNum">Mittaustuloksesi:</p>
+        <table>
+          <tr id="underWeight">
+            <td>Alipainoinen</td>
+            <td>0-18.9</td>
+          </tr>
+          <tr id="normalWeight">
+            <td>Normaalipainoinen</td>
+            <td>19-24.9</td>
+          </tr>
+          <tr id="overWeight">
+            <td>Ylipainoinen</td>
+            <td>25-40.0 tai enemmän</td>
+          </tr>
+        </table>
+        <p id="results">Analyysi:</p>
+      </div>
+    </section>
+    <script src="../src/BMI.js"></script>
+    <footer id="copyright">Copyright, Niko Tiesmäki</footer>
+  </body>
 </html>
